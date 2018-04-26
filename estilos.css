@@ -1,0 +1,55 @@
+#arriba{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color:#94830C;
+    z-index: 1;
+    font-family:Verdana;
+    font-size: 25px;
+}
+main{
+    display: block;
+    position: absolute;
+    top:60px;
+    left: 220px;
+    font-family: Georgia;
+    font-size: 1.5em;
+}
+nav{
+    display: block;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: gray;
+}
+h1{
+    color: #94830C;
+    border: 2px solid;
+    text-align: center;
+}
+#menu{
+    text-align: center;
+    color: white;
+}
+#menu p{
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    margin:10px;
+}
+#menu p a{
+    text-decoration: none;
+    color: white;
+}
+#menu p:hover{
+    background-color: white;
+}
+ #menu p:hover a{
+     color: gray;
+ }
